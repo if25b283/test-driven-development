@@ -16,4 +16,12 @@ describe('findSpaceship', () => {
             '..........';
         expect(findSpaceship(map)).toEqual([7, 2]);
     });
+
+    test('gibt "Spaceship lost forever." zurueck, wenn kein X vorhanden ist', () => {
+        const map =
+            '..........\n' +
+            '..........\n' +
+            '..........';
+        expect(findSpaceship(map)).toBe('Spaceship lost forever.');
+    });
 });
