@@ -11,7 +11,7 @@ function findSpaceship(map) {
         }
     }
 
-    return [0, 0];
+    return 'Spaceship lost forever.';
 }
 
 module.exports = { findSpaceship };
