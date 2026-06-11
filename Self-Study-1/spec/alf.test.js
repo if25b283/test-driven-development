@@ -5,4 +5,15 @@ describe('findSpaceship', () => {
         const map = 'X';
         expect(findSpaceship(map)).toEqual([0, 0]);
     });
+
+    test('findet X in der Beispielkarte und gibt [7, 2] zurueck', () => {
+        const map =
+            '..........\n' +
+            '..........\n' +
+            '..........\n' +
+            '.......X..\n' +
+            '..........\n' +
+            '..........';
+        expect(findSpaceship(map)).toEqual([7, 2]);
+    });
 });
