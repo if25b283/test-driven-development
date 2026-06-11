@@ -1,0 +1,12 @@
+{
+    "name": "self-study-2-electrons-around-the-cores",
+    "version": "1.0.0",
+    "description": "TDD Pair Programming Coding Kata - Electrons around the cores",
+    "main": "src/electrons.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
