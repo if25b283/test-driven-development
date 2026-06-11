@@ -1,0 +1,12 @@
+{
+    "name": "self-study-1-help-alf",
+    "version": "1.0.0",
+    "description": "TDD Coding Kata - Help ALF (find spaceship in map)",
+    "main": "src/alf.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "devDependencies": {
+        "jest": "^29.7.0"
+    }
+}
